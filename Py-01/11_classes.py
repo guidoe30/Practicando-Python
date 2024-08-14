@@ -16,3 +16,12 @@ class Person:
 my_person = Person("Guido", "Enriquez") 
 print(my_person.full_name)
 my_person.walk()
+
+class Car:
+    def __init__(self):
+        self.color = "Rojo"
+        self.marca = "Ferrari"
+      
+
+my_auto = Car()
+print(f"{my_auto.color} {my_auto.marca}")
